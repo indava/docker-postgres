@@ -3,6 +3,7 @@ latest postgreSQL + postGIS
 
 # docker-compose.yml
 
+```
 version: '3.8'
 
 services:
@@ -14,3 +15,4 @@ services:
       - POSTGRES_DB=
       - POSTGRES_USER=
       - POSTGRES_PASSWORD=
+```
